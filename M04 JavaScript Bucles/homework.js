@@ -136,12 +136,12 @@ function esPrimo(num) {
    // [Pista 2]: puedes resolverlo utilizando un `bucle for`.
    // [Nota]: los números negativos, 0 y 1 NO son números primos.
    // Tu código:
-   if (num <=1) return false
-   for (var i= 2; i < num; i++)
-      if (num% i === 0 ){
-         return false}
-      {return true
-   }  
+   var contador = 0
+   num
+   for (i=0; i<= num; i++) {
+       if (num % i == 0) { contador ++}
+   } if (contador ==2) {return true}
+   else {return false}
 }
 
 function esVerdadero(valor) {
